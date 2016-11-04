@@ -1,0 +1,19 @@
+{
+	"preset": "airbnb",
+	"validateIndentation": 4,
+	"requireTrailingComma": false,
+	"requireSpaceAfterLineComment": true,
+	"maximumLineLength": {
+		"value": 100,
+		"allExcept": [
+			'comments',
+			'urlComments'
+		]
+	},
+	"excludeFiles": [
+		"./vendor",
+		"./node_modules",
+		"./public",
+		"./storage"
+	]
+}

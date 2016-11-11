@@ -1,15 +1,17 @@
 {
 	"preset": "airbnb",
 	"validateIndentation": 4,
+    "validateQuoteMarks": "'",
 	"requireTrailingComma": false,
 	"requireSpaceAfterLineComment": true,
-	"maximumLineLength": {
-		"value": 100,
-		"allExcept": [
-			'comments',
-			'urlComments'
-		]
-	},
+    "disallowTrailingComma": true,
+    "requirePaddingNewLinesAfterBlocks": true,
+    "requirePaddingNewLinesInObjects": true,
+    "requirePaddingNewlinesBeforeKeywords": true,
+    "requireObjectKeysOnNewLine": true,
+    "requireNewlineBeforeBlockStatements": false,
+    "validateParameterSeparator": ", ",
+	"maximumLineLength": 0,
 	"excludeFiles": [
 		"./vendor",
 		"./node_modules",

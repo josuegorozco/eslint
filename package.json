@@ -17,6 +17,7 @@
     "eslint-plugin-import": "^2.0.0",
     "eslint-plugin-jsx-a11y": "^2.2.3",
     "eslint-plugin-react": "^6.3.0",
+    "eslint-plugin-redux-saga": "^0.2.0",
     "jscs": "^3.0.7"
   }
 }
